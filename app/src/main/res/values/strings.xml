@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Frutas - Luciano Bacab</string>
+    <string name="TextView">Seleccione una Fruta</string>
+    <string name="Pedidos">Pedidos Agregados</string>
+    <string name="Empresa">Fruteria El Amanecer</string>
+    <string name="Direcc">C. 69 473, Centro, 97000 Mérida, Yuc.</string>
+    <string name="CarritoIB">Compras</string>
+
+    <string-array name="Frutas">
+        <item>Toronja</item>
+        <item>Manzana</item>
+        <item>Pera</item>
+        <item>Sandia</item>
+        <item>Platano</item>
+        <item>Durazno</item>
+    </string-array>
+    <string name="title_activity_ticket">ticket</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+</resources>

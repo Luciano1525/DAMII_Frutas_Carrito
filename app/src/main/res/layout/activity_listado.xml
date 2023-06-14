@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/color_fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listado">
+
+    <ListView
+        android:id="@+id/LVF"
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:layout_below="@+id/TVPD"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="1dp"
+        android:textColor="@color/Amarillo" />
+
+    <TextView
+        android:id="@+id/TVPD"
+        android:layout_width="282dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="63dp"
+        android:text="@string/Pedidos"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnComprarF"
+        android:layout_width="184dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="601dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="62dp"
+        android:text="Comprar"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</RelativeLayout>
